@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/easytimer.min.js")
+
+
+    <script type="text/javascript">
+
+        
+
+        function startStandardLINQ(t) {
+            var timer = new Timer();
+            timer.start();
+            timer.addEventListener('secondsUpdated', function (e) {
+                $('#standardLambdaOne').html(timer.getTimeValues().toString());
+            });
+
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    timer.stop();
+                    
+                    $("#lblNotifyLambdaOne").css("visibility", "visible");
+                }
+            };
+            xmlhttp.open("GET", "/Home/startStandardLINQ", true);
+            xmlhttp.send();
+            
+        }
+
+        function startCompiledQuery(t) {
+            //startCompiledQuery
+            var timer = new Timer();
+            timer.start();
+            timer.addEventListener('secondsUpdated', function (e) {
+                $('#compiledQueryOne').html(timer.getTimeValues().toString());
+            });
+
+
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    timer.stop();
+
+                    $("#lblNotifyLambdaTwo").css("visibility", "visible");
+                }
+            };
+            xmlhttp.open("GET", "/Home/startCompiledQuery", true);
+            xmlhttp.send();
+
+        }
+
+        function startADODOTNETQuery(t) {
+            var timer = new Timer();
+            timer.start();
+            timer.addEventListener('secondsUpdated', function (e) {
+                $('#ADONETquery').html(timer.getTimeValues().toString());
+            });
+
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    timer.stop();
+
+                    $("#lblNotifyADONET").css("visibility", "visible");
+                }
+            };
+            xmlhttp.open("GET", "/Home/startADODOTNETQuery", true);
+            xmlhttp.send();
+        }
+
+    </script>
+    
+</head>
+<body>
+    <div class="navbar navbar-fixed-top">
+        <div class="container">
+         
+             <a href="http://thoughtsonprogramming.wordpress.com">Thoughts on programming</a>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+
+    @RenderSection("scripts", required: false)
+    </body>
+</html>

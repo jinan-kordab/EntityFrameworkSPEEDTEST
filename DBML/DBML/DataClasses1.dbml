@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AdventureWorks2012" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localdb)\LocalInstance;Initial Catalog=AdventureWorks2012;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework" SettingsObjectName="DBML.Properties.Settings" SettingsPropertyName="AdventureWorks2012ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.RANDOMDATA" Member="RANDOMDATAs">
+    <Type Name="RANDOMDATA">
+      <Column Name="PKID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="COLUMN1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN2" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN3" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN4" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN5" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN6" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN7" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN8" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN9" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN10" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN11" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN12" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN13" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMNN14" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMNO15" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMNO16" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMNO17" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMNO18" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMNO19" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN20" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN21" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN22" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN23" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN24" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN25" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN26" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN27" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN28" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN29" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN30" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN31" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN32" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN33" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN34" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN35" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN36" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN37" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN38" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="COLUMN39" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

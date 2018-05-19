@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="AdventureWorks2012Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="RANDOMDATA">
+          <Key>
+            <PropertyRef Name="PKID" />
+          </Key>
+          <Property Name="PKID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="COLUMN1" Type="varchar" MaxLength="100" />
+          <Property Name="COLUMN2" Type="varchar" MaxLength="100" />
+          <Property Name="COLUMN3" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN4" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN5" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN6" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN7" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN8" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN9" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN10" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN11" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN12" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN13" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMNN14" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMNO15" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMNO16" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMNO17" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMNO18" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMNO19" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN20" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN21" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN22" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN23" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN24" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN25" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN26" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN27" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN28" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN29" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN30" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN31" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN32" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN33" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN34" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN35" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN36" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN37" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN38" Type="nvarchar" MaxLength="100" />
+          <Property Name="COLUMN39" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityContainer Name="AdventureWorks2012ModelStoreContainer">
+          <EntitySet Name="RANDOMDATA" EntityType="Self.RANDOMDATA" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AdventureWorks2012Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="RANDOMDATA">
+          <Key>
+            <PropertyRef Name="PKID" />
+          </Key>
+          <Property Name="PKID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="COLUMN1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="COLUMN2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="COLUMN3" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN4" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN5" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN6" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN7" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN8" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN9" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN10" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN11" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN12" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN13" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMNN14" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMNO15" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMNO16" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMNO17" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMNO18" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMNO19" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN20" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN21" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN22" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN23" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN24" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN25" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN26" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN27" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN28" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN29" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN30" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN31" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN32" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN33" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN34" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN35" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN36" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN37" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN38" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLUMN39" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="AdventureWorks2012Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="RANDOMDATA" EntityType="Self.RANDOMDATA" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AdventureWorks2012ModelStoreContainer" CdmEntityContainer="AdventureWorks2012Entities">
+          <EntitySetMapping Name="RANDOMDATA">
+            <EntityTypeMapping TypeName="AdventureWorks2012Model.RANDOMDATA">
+              <MappingFragment StoreEntitySet="RANDOMDATA">
+                <ScalarProperty Name="PKID" ColumnName="PKID" />
+                <ScalarProperty Name="COLUMN1" ColumnName="COLUMN1" />
+                <ScalarProperty Name="COLUMN2" ColumnName="COLUMN2" />
+                <ScalarProperty Name="COLUMN3" ColumnName="COLUMN3" />
+                <ScalarProperty Name="COLUMN4" ColumnName="COLUMN4" />
+                <ScalarProperty Name="COLUMN5" ColumnName="COLUMN5" />
+                <ScalarProperty Name="COLUMN6" ColumnName="COLUMN6" />
+                <ScalarProperty Name="COLUMN7" ColumnName="COLUMN7" />
+                <ScalarProperty Name="COLUMN8" ColumnName="COLUMN8" />
+                <ScalarProperty Name="COLUMN9" ColumnName="COLUMN9" />
+                <ScalarProperty Name="COLUMN10" ColumnName="COLUMN10" />
+                <ScalarProperty Name="COLUMN11" ColumnName="COLUMN11" />
+                <ScalarProperty Name="COLUMN12" ColumnName="COLUMN12" />
+                <ScalarProperty Name="COLUMN13" ColumnName="COLUMN13" />
+                <ScalarProperty Name="COLUMNN14" ColumnName="COLUMNN14" />
+                <ScalarProperty Name="COLUMNO15" ColumnName="COLUMNO15" />
+                <ScalarProperty Name="COLUMNO16" ColumnName="COLUMNO16" />
+                <ScalarProperty Name="COLUMNO17" ColumnName="COLUMNO17" />
+                <ScalarProperty Name="COLUMNO18" ColumnName="COLUMNO18" />
+                <ScalarProperty Name="COLUMNO19" ColumnName="COLUMNO19" />
+                <ScalarProperty Name="COLUMN20" ColumnName="COLUMN20" />
+                <ScalarProperty Name="COLUMN21" ColumnName="COLUMN21" />
+                <ScalarProperty Name="COLUMN22" ColumnName="COLUMN22" />
+                <ScalarProperty Name="COLUMN23" ColumnName="COLUMN23" />
+                <ScalarProperty Name="COLUMN24" ColumnName="COLUMN24" />
+                <ScalarProperty Name="COLUMN25" ColumnName="COLUMN25" />
+                <ScalarProperty Name="COLUMN26" ColumnName="COLUMN26" />
+                <ScalarProperty Name="COLUMN27" ColumnName="COLUMN27" />
+                <ScalarProperty Name="COLUMN28" ColumnName="COLUMN28" />
+                <ScalarProperty Name="COLUMN29" ColumnName="COLUMN29" />
+                <ScalarProperty Name="COLUMN30" ColumnName="COLUMN30" />
+                <ScalarProperty Name="COLUMN31" ColumnName="COLUMN31" />
+                <ScalarProperty Name="COLUMN32" ColumnName="COLUMN32" />
+                <ScalarProperty Name="COLUMN33" ColumnName="COLUMN33" />
+                <ScalarProperty Name="COLUMN34" ColumnName="COLUMN34" />
+                <ScalarProperty Name="COLUMN35" ColumnName="COLUMN35" />
+                <ScalarProperty Name="COLUMN36" ColumnName="COLUMN36" />
+                <ScalarProperty Name="COLUMN37" ColumnName="COLUMN37" />
+                <ScalarProperty Name="COLUMN38" ColumnName="COLUMN38" />
+                <ScalarProperty Name="COLUMN39" ColumnName="COLUMN39" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

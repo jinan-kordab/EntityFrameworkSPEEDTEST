@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" style="background-color:blueviolet;color:white">
+    <h1>SPEED TEST</h1>
+    <p class="lead" >Press each of the buttons below to run three different tests
+    
+    <ul>
+        <li>Link to SQL with Entity Framework</li>
+        <li>Link to SQL using Compiled Queries</li>
+        <li>ADO.NET query</li>
+    </ul>
+    
+    </p>
+   
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="alert alert-success" id="lblNotifyLambdaOne" style="visibility:hidden;width:100%;height:50px;">DONE</div>
+
+        <h2>Standard Lambda LINQ</h2>
+        <p>
+            <div id="standardLambdaOne" style="font-size:60px; color:darkviolet">00:00:00</div>
+    
+        </p>
+        <p><a class="btn btn-default" href="#" onclick="startStandardLINQ(this);">START</a>
+            
+        </p>
+    </div>
+    <div class="col-md-4">
+        <div class="alert alert-success" id="lblNotifyLambdaTwo" style="visibility:hidden;width:100%;height:50px;">DONE</div>
+        <h2>Compiled Query</h2>
+        <p>
+            <div id="compiledQueryOne" style="font-size:60px; color:darkviolet">00:00:00</div>
+
+        </p>
+             <p><a class="btn btn-default" href="#" onclick="startCompiledQuery(this);">START</a></p>
+    </div>
+    <div class="col-md-4">
+        <div class="alert alert-success" id="lblNotifyADONET" style="visibility:hidden;width:100%;height:50px;">DONE</div>
+        <h2>ADO.NET</h2>
+        <p>
+            <div id="ADONETquery" style="font-size:60px; color:darkviolet">00:00:00</div>
+
+        </p>
+        <p><a class="btn btn-default" href="#" onclick="startADODOTNETQuery(this);">START</a></p>
+    </div>
+</div>
